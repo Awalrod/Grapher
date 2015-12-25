@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>
+        Physics App
+    </title>
+    <style type="text/css">
+        /*
+        begin header styles
+        */
+        h1.title {
+        text-align:center;
+        color: black;
+        font-family:Didot,Perpetua Tilting MT,Times New Roman;
+        }
+        h2.subhead{
+        font-family: Didot;
+        }
+
+        /*
+        end header styles
+        */
+
+        /*
+        begin list styles
+        */
+        ul.topnav{
+
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
+        }
+        li.horizontalnav {
+        display: inline;
+        margin: 5px;
+        }
+        /*
+        end list styles
+        */
+
+        /*
+        begin anchor styles
+        */
+        a.topnav {
+        color:#000000;
+        text-decoration: none;
+        }
+        a:visited.topnav{
+        color:#000000;
+        text-decoration:none;
+        }
+        a:hover.topnav{
+        text-decoration:bold;
+        color: orange;
+        }
+        /*
+        end anchor styles
+        */
+        /*
+        begin line styles
+        */
+        hr.separation{
+        width: 250px
+        }
+        /*
+        end line styles
+        */
+
+        /*
+        begin body styles
+        */
+        div.regcontent{
+        font-family: Cochin;
+
+        }
+
+        /*
+        end body styles
+        */
+
+    </style>
+</head>
+<body>
+
+<h1 class="title">Physics App Documentation</h1>
+<ul class= "topnav">
+    <li class="horizontalnav"><a class="topnav" href="#windowSummary">Window Summary</a></li>
+    <li class="horizontalnav"><a class="topnav" href="#graph">Graph</a></li>
+    <li class="horizontalnav"><a class="topnav" href="#functions">Functions Menu</a></li>
+    <li class="horizontalnav"><a class="topnav" href="#constant">Constant Menu</a></li>
+    <li class="horizontalnav"><a class="topnav" href="#window">Window menu</a></li>
+    <li class="horizontalnav"><a class="topnav" href="#contact">Contact </a></li>
+</ul>
+<hr class="separation" />
+
+
+<div class="regcontent">
+    <h2 class="subhead" id="windowSummary">Window Summary</h2>
+    There are two windows in the Grapher software. The Graph shows the functions graphed on a cartesian plane. The
+    Control Window contains the controls for the Graph
+</div>
+
+
+<div class="regcontent">
+    <h2 class="subhead" id="graph">Graph</h2>
+    The Graph shows the functions graphed on a cartesian plane.
+    <p>
+        The dark black lines on the graph are the x and y axes. The lighter gray lines are the unit lines. The interval
+        between the unit lines are set under the Window Controls menu. The colored lines are the functions.
+    </p>
+
+
+</div>
+
+<div class="regcontent">
+    <h2 class="subhead" id="functions">Function menu</h2>
+    The function menu contains the function controls
+    <p>
+        The Graph can contain up to ten functions. The variable "x" is automatically incremented to create the
+        graph. Variables and sub-functions("x', constants, sin(), etc) do not assume multiplication when placed next to
+        another term. <br/>
+        "6x + 1" is invalid, "6*x + 1" is valid<br/>
+        "2(4)" is invalid, "2*(4)" is valid<br/>
+
+        There several built in sub-functions:<br/>
+        sin() returns the sine of a given angle(in radians)<br/>
+        cos() returns the cosine of a given angle(in radians)<br/>
+        tan() returns the tangent of a given angle(in radians)<br/>
+        asin() returns the angle(in radians) of a given sine<br/>
+        acos() returns the angle(in radians) of a given cosine<br/>
+        atan() returns the angle(in radians) of a given tangent<br/>
+        sqrt() returns the square root of a given number<br/>
+        exp() returns euler's number e raised to a given number<br/>
+        ln() returns the Natural Logarithm of a given number<br/>
+        log() returns the Common Logarithm of a given number<br/>
+        log2() returns the logarithm base 2 or a given number<br/>
+        <br/>
+        Pressing "Update Functions" will regraph the given functions
+
+    </p>
+
+</div>
+
+<div class="regcontent">
+    <h2 class="subhead" id="constant">Constant Menu</h2>
+    The Constant Menu keeps track of constants used in the functions.
+    <p>
+        The Name Field is the name of the constant. The value field is the value of the constant.<br />
+        Clicking "Add" will add the constant to the list of constants to be evaluated in the functions. Clicking
+        the red "X" next to a listed constant will delete that constant. Adding a constant with the same name of an
+        existing constant will overwrite the original constant's value to the new constant's value.<br />
+        To use a constant in a function simply insert the given name into the equation.<br />
+    </p>
+</div>
+
+<div class="regcontent">
+    <h2 class="subhead" id="windowMenu">Window Menu</h2>
+    The Window Menu controls the bounds of what is visible in the Graph
+    <p>
+        The Window Menu contains 7 fields:<br/>
+        1)The x lower bound is the lowest x value visible on the graph<br/>
+        2)The x upper bound is the highest x value visible on the graph<br/>
+        3)The y lower bound is the lowest y value visible on the graph<br/>
+        4)The y upper bound is the highest y value visible on the graph<br/>
+        5)The x interval sets the distance between the light gray interval lines on the x axis<br/>
+        6)The y interval sets the distance between the light gray interval lines on the y axis<br/>
+        7)The definition sets the preciseness of the graph. A smaller definition will be more accurate, a larger definition
+        will be less accurate.<br/>
+    </p>
+    <p>
+        Once the fields have been properly filled out, pressing "Update" will set the visible window in the Graph
+    </p>
+</div>
+
+<div class="regcontent">
+    <h2 class="subhead" id="contact">Contact Info</h2>
+    <p>Contact the developer at awalrod123@gmail.com</p>
+</div>
+
+
+</body>
+</html>
